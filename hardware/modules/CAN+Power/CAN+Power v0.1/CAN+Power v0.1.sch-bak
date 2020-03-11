@@ -1,4 +1,285 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 5E68E3D4
+P 6850 3500
+F 0 "L?" H 6850 3715 50  0000 C CNN
+F 1 "INDUCTOR" H 6850 3624 50  0001 C CNN
+F 2 "" H 6850 3500 50  0001 C CNN
+F 3 "~" H 6850 3500 50  0001 C CNN
+	1    6850 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N5819 D?
+U 1 1 5E68E6D9
+P 7000 4250
+F 0 "D?" V 6954 4329 50  0000 L CNN
+F 1 "1N5819" V 7045 4329 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7000 4075 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 7000 4250 50  0001 C CNN
+	1    7000 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E68EEF1
+P 6400 4400
+F 0 "R1" H 6470 4446 50  0000 L CNN
+F 1 "11k" H 6470 4355 50  0000 L CNN
+F 2 "" V 6330 4400 50  0001 C CNN
+F 3 "~" H 6400 4400 50  0001 C CNN
+	1    6400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E68F407
+P 6950 5050
+F 0 "R2" H 7020 5096 50  0000 L CNN
+F 1 "18k" H 7020 5005 50  0000 L CNN
+F 2 "" V 6880 5050 50  0001 C CNN
+F 3 "~" H 6950 5050 50  0001 C CNN
+	1    6950 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E68F497
+P 7450 5000
+F 0 "R?" H 7520 5046 50  0000 L CNN
+F 1 "R" H 7520 4955 50  0000 L CNN
+F 2 "" V 7380 5000 50  0001 C CNN
+F 3 "~" H 7450 5000 50  0001 C CNN
+	1    7450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E68F533
+P 8050 5200
+F 0 "R?" H 8120 5246 50  0000 L CNN
+F 1 "R" H 8120 5155 50  0000 L CNN
+F 2 "" V 7980 5200 50  0001 C CNN
+F 3 "~" H 8050 5200 50  0001 C CNN
+	1    8050 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E68F5DB
+P 8400 4900
+F 0 "R?" H 8470 4946 50  0000 L CNN
+F 1 "R" H 8470 4855 50  0000 L CNN
+F 2 "" V 8330 4900 50  0001 C CNN
+F 3 "~" H 8400 4900 50  0001 C CNN
+	1    8400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rsc
+U 1 1 5E68F68F
+P 6350 1950
+F 0 "Rsc" V 6420 1996 50  0000 L TNN
+F 1 "0.3 Ohm" V 6420 1905 50  0000 R TNN
+F 2 "" V 6280 1950 50  0001 C CNN
+F 3 "~" H 6350 1950 50  0001 C CNN
+	1    6350 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E68F74F
+P 8250 4350
+F 0 "R?" H 8320 4396 50  0000 L CNN
+F 1 "R" H 8320 4305 50  0000 L CNN
+F 2 "" V 8180 4350 50  0001 C CNN
+F 3 "~" H 8250 4350 50  0001 C CNN
+	1    8250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E6907B8
+P 4050 4200
+F 0 "C?" H 4165 4246 50  0000 L CNN
+F 1 "C" H 4165 4155 50  0000 L CNN
+F 2 "" H 4088 4050 50  0001 C CNN
+F 3 "~" H 4050 4200 50  0001 C CNN
+	1    4050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5E691476
+P 4700 1750
+F 0 "C1" H 4818 1796 50  0000 L CNN
+F 1 "100uF" H 4818 1705 50  0000 L CNN
+F 2 "" H 4738 1600 50  0001 C CNN
+F 3 "~" H 4700 1750 50  0001 C CNN
+	1    4700 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E691C20
+P 5450 4200
+F 0 "C?" H 5568 4246 50  0000 L CNN
+F 1 "CP" H 5568 4155 50  0000 L CNN
+F 2 "" H 5488 4050 50  0001 C CNN
+F 3 "~" H 5450 4200 50  0001 C CNN
+	1    5450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E691E55
+P 6000 4200
+F 0 "C?" H 6118 4246 50  0000 L CNN
+F 1 "CP" H 6118 4155 50  0000 L CNN
+F 2 "" H 6038 4050 50  0001 C CNN
+F 3 "~" H 6000 4200 50  0001 C CNN
+	1    6000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_CAN_LIN:SN65HVD230 U1
+U 1 1 5E6928D2
+P 4000 3000
+F 0 "U1" H 4000 3481 50  0000 C CNN
+F 1 "SN65HVD230" H 4000 3390 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4000 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 3900 3400 50  0001 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5E694B59
+P 3150 2450
+F 0 "J1" H 3258 2639 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 3258 2640 50  0001 C CNN
+F 2 "" H 3150 2450 50  0001 C CNN
+F 3 "~" H 3150 2450 50  0001 C CNN
+	1    3150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 5E693C56
+P 4100 1800
+F 0 "J2" H 4128 1730 50  0000 L CNN
+F 1 "1" H 4128 1685 50  0001 L CNN
+F 2 "" H 4100 1800 50  0001 C CNN
+F 3 "~" H 4100 1800 50  0001 C CNN
+	1    4100 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6B7F6B
+P 3850 1600
+F 0 "#PWR?" H 3850 1350 50  0001 C CNN
+F 1 "GND" V 3855 1388 50  0000 C CNN
+F 2 "" H 3850 1600 50  0001 C CNN
+F 3 "" H 3850 1600 50  0001 C CNN
+	1    3850 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 1900 4300 1900
+Wire Wire Line
+	3850 1600 4300 1600
+$Comp
+L Device:C C2
+U 1 1 5E6CDEAA
+P 5200 1750
+F 0 "C2" H 5315 1796 50  0000 L CNN
+F 1 "100nF" H 5315 1705 50  0000 L CNN
+F 2 "" H 5238 1600 50  0001 C CNN
+F 3 "~" H 5200 1750 50  0001 C CNN
+	1    5200 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 1900 4700 1900
+Connection ~ 4300 1900
+Wire Wire Line
+	5200 1900 4700 1900
+Connection ~ 4700 1900
+Wire Wire Line
+	4700 1600 4300 1600
+Connection ~ 4300 1600
+Wire Wire Line
+	4700 1600 5200 1600
+Connection ~ 4700 1600
+$Comp
+L power:+12V #PWR?
+U 1 1 5E6B798B
+P 3850 1900
+F 0 "#PWR?" H 3850 1750 50  0001 C CNN
+F 1 "+12V" V 3865 2152 50  0000 C CNN
+F 2 "" H 3850 1900 50  0001 C CNN
+F 3 "" H 3850 1900 50  0001 C CNN
+	1    3850 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6750 2450 6750 2550
+Wire Wire Line
+	6750 2350 6750 2450
+Connection ~ 6750 2450
+Wire Wire Line
+	6500 1950 6750 1950
+Wire Wire Line
+	6750 1950 6750 2350
+Connection ~ 6750 2350
+Wire Wire Line
+	6200 1950 5950 1950
+Wire Wire Line
+	5950 1950 5950 2350
+$Comp
+L Regulator_Switching:MC33063AD U2
+U 1 1 5E68DE04
+P 6350 2550
+F 0 "U2" H 6350 3017 50  0000 C CNN
+F 1 "MC33063AD" H 6350 2926 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6400 2100 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF" H 6850 2450 50  0001 C CNN
+	1    6350 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1900 5950 1900
+Wire Wire Line
+	5950 1900 5950 1950
+Connection ~ 5200 1900
+Connection ~ 5950 1950
+$Comp
+L power:GND #PWR?
+U 1 1 5E6B47A1
+P 6350 3100
+F 0 "#PWR?" H 6350 2850 50  0001 C CNN
+F 1 "GND" V 6355 2888 50  0000 C CNN
+F 2 "" H 6350 3100 50  0001 C CNN
+F 3 "" H 6350 3100 50  0001 C CNN
+	1    6350 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3050 6350 3100
 $EndSCHEMATC
