@@ -1,0 +1,18 @@
+### Module positions - created on 21.03.2020 18:18:53 ###
+### Printed by Pcbnew version pcbnew (5.1.5)-3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                        PosX       PosY       Rot  Side
+C1        100uF       CP_Elec_6.3x5.4            154.4000  -100.6000    0.0000  top
+C2        100nF       C_1206_3216Metric          156.4000  -109.6000    0.0000  top
+C3        100nF       C_1206_3216Metric          128.8000   -84.2000  270.0000  top
+Ct1       270pF       C_1206_3216Metric          139.0000  -107.8000  270.0000  top
+D1        1N5819      D_SMA                      141.4000   -97.8000    0.0000  top
+L1        47uH        L_10.4x10.4_H4.8           131.2000   -97.8000  180.0000  top
+R1        11k         R_1206_3216Metric          149.2000  -112.8000    0.0000  top
+R2        18k         R_1206_3216Metric          137.8000  -112.8000  180.0000  top
+Rsc1      0.3_Ohm     R_1206_3216Metric          151.8000  -107.0000   90.0000  top
+U1        SN65HVD230  SOIC-8_3.9x4.9mm_P1.27mm   135.8400   -84.4600    0.0000  top
+U2        MC33063AD   SOIC-8_3.9x4.9mm_P1.27mm   145.4000  -105.4000    0.0000  top
+С0       220uF       CP_Elec_8x10.5             129.0000  -109.0000    0.0000  top
+## End
